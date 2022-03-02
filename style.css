@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F7A43E;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    background-color: #5E341C;
+    color: #131D30;
+    padding: 30px;
+    border: 0;
+    margin: 0;
+    justify-content: flex-start;
+    box-shadow: 0 0 10px 0;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-size: 30px;
+    z-index: 1;
+
+/* I still see body background color above navbar - how to fix it? !!! EDIT - I changed body propeteries and now it's cool*/
+/* why is it transparent? */
+
+}
+
+
+.page-site{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    position: relative;
+    top: 200x;
+    
+}
+
+.page-site h1 {
+    color: #131D30;
+}
+
+.page-site h2 {
+    color: #131D30;
+    font-style: italic;
+}
+
+img{ 
+    width: 100%;
+    height: 100%;
+}
